@@ -3,8 +3,8 @@
 
 # global variable
 NC="\033[0m"
-# LOGFILE="/var/log/healthcheck/health_check.log"
-LOGFILE="./health_check.log"
+LOGFILE="/var/log/healthcheck/health_check.log"
+#LOGFILE="./health_check.log"
 USER="healthcheck"
 
 
