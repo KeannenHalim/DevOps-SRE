@@ -1,5 +1,5 @@
 resource "aws_security_group" "web_sg"{
-    name = "web-sg"
+    name = "${var.env}-${var.region}-web-sg"
     description = "Allow SSH port 22 and HTTP port 80"
     vpc_id = data.aws_vpc.default.id
 

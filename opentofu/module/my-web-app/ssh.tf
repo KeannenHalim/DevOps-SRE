@@ -4,7 +4,7 @@ resource "tls_private_key" "rsa_key"{
 }
 
 resource "local_file" "private_key" {
-  filename = pathexpand("~/.ssh/web-key.pem")
+  filename = pathexpand("~/.ssh/${var.env}-${var.region}-web-key.pem")
   content  = tls_private_key.rsa_key.private_key_pem
   file_permission = "0600"
 }
