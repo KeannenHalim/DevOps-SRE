@@ -1,1 +1,7 @@
 .DS_Store
+*.tfstate
+*.tfstate.*
+.vscode/
+.idea/
+*.swp
+.terraform
