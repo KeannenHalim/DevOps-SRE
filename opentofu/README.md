@@ -9,7 +9,7 @@ In this example, I only make a simple EC2 instance, with the default VPC and the
 ![Architecture Diagram](./images/diagram.png)
 
 ## Getting Started
-This code is developed for provisioning an AWS infrastructure, so in other words, you have to have an AWS account.
+This code is developed for provisioning an AWS infrastructure, so in other words, you have to have an AWS account. Please remember to change to the working directory before executing the tofu commands.
 
 ### Installing OpenTofu
 You can see the official documentation for installing the OpenTofu from their official website. Visit [OpenTofu Website](https://opentofu.org/docs/intro/install/) for more details.
